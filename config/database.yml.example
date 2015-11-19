@@ -23,17 +23,17 @@ postgres: &postgres
 production:
   <<: *postgres
   database: bookyt_production
-  username: bookyt
-  password:
+  username: chudu24
+  password: 123456
 
 development:
   <<: *postgres
   database: bookyt_development
-  username: bookyt
-  password:
+  username: chudu24
+  password: 123456
 
 test:
   <<: *postgres
   database: bookyt_test
-  username: bookyt
-  password:
+  username: chudu24
+  password: 123456
