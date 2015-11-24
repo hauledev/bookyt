@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1563267961">
+  <component name="DataSourceManagerImpl" format="xml" hash="1435109979">
     <data-source source="LOCAL" name="Rails bookyt: production" uuid="76bc93ed-94e0-4dab-b24e-857afa8f3c7b">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>

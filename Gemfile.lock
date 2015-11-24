@@ -4,6 +4,16 @@ GIT
   specs:
     mt940_parser (1.1.0)
 
+PATH
+  remote: ../has_vcards
+  specs:
+    has_vcards (1.1.1)
+      haml
+      i18n_rails_helpers
+      inherited_resources
+      rails (> 3.2.0)
+      simple_form
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -181,12 +191,6 @@ GEM
     has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
-    has_vcards (1.1.1)
-      haml
-      i18n_rails_helpers
-      inherited_resources
-      rails (> 3.2.0)
-      simple_form
     hashery (2.1.1)
     hashie (3.4.0)
     highline (1.7.2)
@@ -467,7 +471,7 @@ DEPENDENCIES
   has_accounts
   has_accounts_engine (= 3.0.0.beta13)
   has_scope
-  has_vcards
+  has_vcards!
   i18n_rails_helpers
   inherited_resources
   jquery-rails

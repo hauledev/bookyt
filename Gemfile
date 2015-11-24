@@ -125,7 +125,9 @@ gem 'has_accounts'
 gem 'has_accounts_engine', '3.0.0.beta13'
 
 # Addresses
-gem 'has_vcards'
+# gem 'has_vcards'
+#gem 'has_vcards', :git => 'http://github.com/hauledev/has_vcards'
+gem 'has_vcards', :path => '../has_vcards'
 
 # Uploads
 gem 'carrierwave'

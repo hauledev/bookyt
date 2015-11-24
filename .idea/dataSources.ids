@@ -1772,6 +1772,7 @@
       <column name="code" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="template_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="template_type" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="reservationnumber" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="bookings_pkey" columns="id"/>
       <index name="index_bookings_on_credit_account_id" unique="false" columns="credit_account_id"/>
       <index name="index_bookings_on_debit_account_id" unique="false" columns="debit_account_id"/>
