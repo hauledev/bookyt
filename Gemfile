@@ -121,8 +121,10 @@ gem 'ledermann-rails-settings'
 # Bookyt
 # ======
 # Accounting
-gem 'has_accounts'
-gem 'has_accounts_engine', '3.0.0.beta13'
+# gem 'has_accounts'
+# gem 'has_accounts_engine', '3.0.0.beta13'
+gem 'has_accounts', :path => '../has_accounts'
+gem 'has_accounts_engine', :path => '../has_accounts_engine'
 
 # Addresses
 # gem 'has_vcards'

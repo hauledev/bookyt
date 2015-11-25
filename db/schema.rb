@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150309165055) do
+ActiveRecord::Schema.define(:version => 20151125041307) do
 
   create_table "account_types", :force => true do |t|
     t.string   "name",       :limit => 100
@@ -140,16 +140,16 @@ ActiveRecord::Schema.define(:version => 20150309165055) do
   add_index "booking_templates", ["type"], :name => "index_booking_templates_on_type"
 
   create_table "bookings", :force => true do |t|
-    t.string   "title",             :limit => 100
-    t.decimal  "amount",                           :precision => 10, :scale => 2
+    t.string   "title",              :limit => 100
+    t.decimal  "amount",                            :precision => 10, :scale => 2
     t.integer  "credit_account_id"
     t.integer  "debit_account_id"
     t.date     "value_date"
-    t.text     "comments",                                                        :default => ""
+    t.text     "comments",                                                         :default => ""
     t.string   "scan"
-    t.string   "debit_currency",                                                  :default => "CHF"
-    t.string   "credit_currency",                                                 :default => "CHF"
-    t.float    "exchange_rate",                                                   :default => 1.0
+    t.string   "debit_currency",                                                   :default => "CHF"
+    t.string   "credit_currency",                                                  :default => "CHF"
+    t.float    "exchange_rate",                                                    :default => 1.0
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "reference_id"
@@ -157,6 +157,7 @@ ActiveRecord::Schema.define(:version => 20150309165055) do
     t.integer  "code"
     t.integer  "template_id"
     t.string   "template_type"
+    t.string   "reservation_number"
   end
 
   add_index "bookings", ["credit_account_id"], :name => "index_bookings_on_credit_account_id"

@@ -133,6 +133,40 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
+      <library name="has_accounts (v3.0.0.beta2, /home/chudu24/Working/Git/RoR/has_accounts) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../has_accounts/db" />
+          <root url="file://$MODULE_DIR$/../has_accounts/app" />
+          <root url="file://$MODULE_DIR$/../has_accounts/lib" />
+          <root url="file://$MODULE_DIR$/../has_accounts/.idea" />
+          <root url="file://$MODULE_DIR$/../has_accounts/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../has_accounts/db" />
+          <root url="file://$MODULE_DIR$/../has_accounts/app" />
+          <root url="file://$MODULE_DIR$/../has_accounts/lib" />
+          <root url="file://$MODULE_DIR$/../has_accounts/.idea" />
+          <root url="file://$MODULE_DIR$/../has_accounts/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="has_accounts_engine (v3.0.0.beta13, /home/chudu24/Working/Git/RoR/has_accounts_engine) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/app" />
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/lib" />
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/.idea" />
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/app" />
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/lib" />
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/.idea" />
+          <root url="file://$MODULE_DIR$/../has_accounts_engine/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="has_vcards (v1.1.1, /home/chudu24/Working/Git/RoR/has_vcards) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/../has_vcards/db" />
@@ -214,8 +248,6 @@
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.6, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.6, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="haml-rails (v0.4, rbenv: 2.2.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="has_accounts (v3.0.0.beta1, rbenv: 2.2.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="has_accounts_engine (v3.0.0.beta13, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="has_scope (v0.6.0, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hashery (v2.1.1, rbenv: 2.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hashie (v3.4.0, rbenv: 2.2.2) [gem]" level="application" />

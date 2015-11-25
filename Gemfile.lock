@@ -5,6 +5,28 @@ GIT
     mt940_parser (1.1.0)
 
 PATH
+  remote: ../has_accounts
+  specs:
+    has_accounts (3.0.0.beta2)
+      rails (~> 3.1)
+      validates_timeliness
+
+PATH
+  remote: ../has_accounts_engine
+  specs:
+    has_accounts_engine (3.0.0.beta13)
+      acts-as-taggable-on
+      anjlab-bootstrap-rails (~> 2.1.0)
+      has_accounts (~> 3.0.0.beta0)
+      has_scope
+      has_vcards
+      i18n_rails_helpers
+      inherited_resources
+      rails (~> 3.2)
+      simple_form
+      validates_timeliness
+
+PATH
   remote: ../has_vcards
   specs:
     has_vcards (1.1.1)
@@ -174,20 +196,6 @@ GEM
       activesupport (>= 3.1, < 4.1)
       haml (>= 3.1, < 4.1)
       railties (>= 3.1, < 4.1)
-    has_accounts (3.0.0.beta1)
-      rails (~> 3.1)
-      validates_timeliness
-    has_accounts_engine (3.0.0.beta13)
-      acts-as-taggable-on
-      anjlab-bootstrap-rails (~> 2.1.0)
-      has_accounts (~> 3.0.0.beta0)
-      has_scope
-      has_vcards
-      i18n_rails_helpers
-      inherited_resources
-      rails (~> 3.2)
-      simple_form
-      validates_timeliness
     has_scope (0.6.0)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
@@ -468,8 +476,8 @@ DEPENDENCIES
   factory_girl_rails
   faraday
   haml-rails
-  has_accounts
-  has_accounts_engine (= 3.0.0.beta13)
+  has_accounts!
+  has_accounts_engine!
   has_scope
   has_vcards!
   i18n_rails_helpers
